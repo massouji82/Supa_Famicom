@@ -1,0 +1,250 @@
+a {
+	text-decoration: none !important;
+	display: inline-block;
+    line-height: 1em;
+}
+
+body {
+	background-color: #97CAEF !important;
+	font-family: Arial, sans-serif;
+	font-size: 1.2em;
+}
+
+footer {
+	background-color: #f4f4f4;
+}
+
+h4 {
+	padding-top: 50px;
+}
+
+h5>img {
+	max-width: 66%;
+	max-height: 66%;
+}
+
+img {
+	padding: 0 !important;
+}
+
+input, textarea, .navbar-toggler:focus, .navbar-toggler:active, .btn:focus, .btn:active {
+	outline: none;
+	box-shadow: none !important;
+	border: 1px solid #ccc !important;
+}
+
+ul	{
+	list-style: none;
+}
+
+#container {
+  width: 30px;
+  height: 30px;
+  position: relative;
+}
+
+#infoi {
+  width: 60%;
+  height: 60%;
+  position: relative;
+  z-index: 10;
+}
+
+#mario {
+	max-width: 15%; 
+	max-height: 15%;
+}
+
+#navi{
+  width: 200%;
+  height: 20%;
+  position: relative;
+}
+
+.brand {
+	margin-left: 15px;
+	font-family: 'snesitalic', Arial, sans-serif;
+    vertical-align: bottom;
+}
+
+.btn-space {
+	text-transform: uppercase;
+	margin-left: 15px;
+}
+
+.carousel-inner .carousel-item {
+	max-height: 700px;
+}
+
+.cart .modal-header {
+    border-bottom: 0 none !important;
+}
+
+.cart .modal-footer {
+    border-top: 0 none !important;
+}
+
+.dropdown-item {
+	font-style: italic;
+	font-size: 1.2em;
+}
+
+.handle {
+	/*position: relative;*/
+	top: 20px;
+	left: 4px;
+}
+
+.handlevogn {
+	background-color: white;
+	color: red;
+	border: solid red 2px;
+	padding: 0.3px 3px;
+	font-size: 0.9em;
+	border-radius: 4px;
+}
+
+.info { 
+  position: absolute; 
+  right: 1rem;
+}
+
+.items, .emphasized {
+	padding: 16px;
+}
+
+.lead {
+	font-size: 1.2em;
+}
+
+.links {
+	text-transform: uppercase;
+	padding: 30px;
+	padding-top: 20px;
+}
+
+.logo {
+	max-width: 33%; 
+	max-height: 33%;
+}
+
+.modal {
+	-webkit-overflow-scrolling: touch;
+}
+
+.modal-content {
+  	background-color: #D3D3D3 !important;
+  	opacity: 0.9;
+}
+
+.name, li {
+	margin: 5px;
+}
+
+.navbar {
+    transition: top 0.1s ease;
+}
+
+.navbar.hide-nav {
+    top: -124px;
+}
+
+.navi {
+	max-height: 20px;
+	max-width: 20px;
+}
+
+.nav-link {
+	text-transform: uppercase;
+}
+
+.sales {
+	background-color: red;
+	color: white;
+	padding: 4px;
+	border-radius: 2px;
+}
+
+.service {
+	padding-top: 60px;
+}
+
+.space {
+	margin: 60px;
+}
+
+.space-l {
+	margin: 90px;
+}
+
+.space-s {
+	margin: 30px;
+}
+
+.title {
+	font-family: 'snesitalic', Arial, sans-serif;
+	font-size: 1.2em;
+}
+
+.trademark{
+	font-size: 0.6em;
+	text-align: center;
+	margin-top: 5px;
+}
+
+@media (max-width: 576px) {
+	.brand {
+		font-size: 1.2em;
+	} 
+}
+
+@media only screen and (max-width: 768px) and (min-width: 576px){
+ 	.brand {
+		font-size: 1.6em;
+	} 
+}
+
+@media only screen and (max-width: 992px) and (min-width: 768px){
+ 	.brand {
+		font-size: 2em;
+	}
+}
+
+@media only screen and (max-width: 1200px) and (min-width: 992px){
+ 	.brand {
+		font-size: 2.4em;
+	}
+}
+
+@media (min-width: 1200px) {
+	.brand {
+		font-size: 2.8em;
+	}
+}
+
+@media (max-width: 768px) {
+    .news, .social {
+        margin-top: 70px;
+    } .space {
+        margin-top: 10px;
+    } 
+}
+
+@media (max-width: 992px) {
+    .icon_size {
+		font-size: 1em !important;
+	} .handlevogn_liten {
+		background-color: red !important;
+		color: white !important;
+		border: none !important;
+		padding: 1px 2px !important;
+		font-size: 0.6em !important;
+		border-radius: 2px !important;
+	} .handle {
+		/*position: relative !important;*/
+		top: 6px !important;
+		left: -1px !important;
+	} 
+}
+
+
