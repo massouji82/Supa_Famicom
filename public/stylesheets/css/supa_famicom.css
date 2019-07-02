@@ -51,8 +51,12 @@ ul	{
 }
 
 #mario {
-	max-width: 15%; 
-	max-height: 15%;
+	max-width: 8em; 
+	max-height: 8em;
+}
+
+#marioModalLabel {
+	margin-top: 3em;
 }
 
 #navi{
@@ -120,7 +124,6 @@ ul	{
 .links {
 	text-transform: uppercase;
 	padding: 30px;
-	padding-top: 20px;
 }
 
 .logo {
@@ -166,7 +169,7 @@ ul	{
 }
 
 .service {
-	padding-top: 60px;
+	padding-top: 50px;
 }
 
 .space {
@@ -246,5 +249,4 @@ ul	{
 		left: -1px !important;
 	} 
 }
-
 
