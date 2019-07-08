@@ -108,6 +108,15 @@ ul	{
 	border-radius: 4px;
 }
 
+.items .img-thumbnail {
+	transition: all 0.5s;
+	border-radius: 10px;
+}
+
+.items .img-thumbnail:hover {
+	transform: scale(1.1);
+}
+
 .info { 
   position: absolute; 
   right: 1rem;
@@ -159,13 +168,6 @@ ul	{
 
 .nav-link {
 	text-transform: uppercase;
-}
-
-.sales {
-	background-color: red;
-	color: white;
-	padding: 4px;
-	border-radius: 2px;
 }
 
 .service {
